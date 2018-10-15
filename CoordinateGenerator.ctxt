@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=minimumValue\ maximumValue
+comment0.target=CoordinateGenerator(int,\ int)
+comment1.params=minimumValue\ maximumValue
+comment1.target=int\ getRandom(int,\ int)
+numComments=2
