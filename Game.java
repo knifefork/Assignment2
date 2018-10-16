@@ -23,8 +23,9 @@ public class Game{
         
     }
     
-    //unsure grid
+
     public static void createGrid(String[] grid){
+        String [] grid = new String();
         for(int i = 0; i < grid.length; i++){
            for(int j = 0; j <= i; j++){
                 grid[i] = "~";
@@ -52,7 +53,8 @@ public class Game{
 
     }
     
-         public static void Main(String[] args){
+        public static void Main(String[] args){
+            
     }
     
 }
