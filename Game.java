@@ -24,11 +24,10 @@ public class Game{
     }
     
 
-    public static void createGrid(String[] grid){
-        String [] grid = new String();
+    public static void createGrid(String[] grid, int cols, int rows){
         for(int i = 0; i < grid.length; i++){
-           for(int j = 0; j <= i; j++){
-                grid[i] = "~";
+           for(int j = 0; j < grid.length; j++){
+                grid[i+j] = "~";
                 System.out.println(grid[i]);
             }
         }
@@ -54,6 +53,7 @@ public class Game{
     }
     
         public static void Main(String[] args){
+            String [] grid = new String();
             
     }
     
