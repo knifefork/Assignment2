@@ -27,7 +27,7 @@ public class Game{
     public static void createGrid(String[] grid, int cols, int rows){
                 for(int i = 0; i < rows; i++){
                    for(int j = 0; j < cols; j++){
-                        grid = (i-1)+(j-1)*15;
+                        grid[(i-1)+(j-1)*15] = "~";
                 
             }
         }
