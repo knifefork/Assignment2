@@ -4,11 +4,13 @@ public class Game{
     private ShipList playerShips;
     private ShipList computerShips;
     
+    
     public Game(){ //?
         ArrayList<ShipList> playerShips = new ArrayList<>();
         ArrayList<ShipList> computerShips = new ArrayList<>();
     }
-        
+    public static void main(String[] args){
+    }
     public void displayMenu(){
         System.out.println("+====================================================================+");
         System.out.println("|                                                                    |");
