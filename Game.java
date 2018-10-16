@@ -9,8 +9,7 @@ public class Game{
         ArrayList<ShipList> playerShips = new ArrayList<>();
         ArrayList<ShipList> computerShips = new ArrayList<>();
     }
-    public static void Main(String[] args){
-    }
+  
     public void displayMenu(){
         System.out.println("+====================================================================+");
         System.out.println("|                                                                    |");
@@ -53,7 +52,8 @@ public class Game{
 
     }
     
-  
+         public static void Main(String[] args){
+    }
     
 }
     
