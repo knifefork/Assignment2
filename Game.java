@@ -9,7 +9,7 @@ public class Game{
         ArrayList<ShipList> playerShips = new ArrayList<>();
         ArrayList<ShipList> computerShips = new ArrayList<>();
     }
-    public static void main(String[] args){
+    public static void Main(String[] args){
     }
     public void displayMenu(){
         System.out.println("+====================================================================+");
