@@ -53,7 +53,7 @@ public class Game{
     }
     
         public static void Main(String[] args){
-            String [] grid = [15] * [15];
+            String [] grid = new String [15 * 15];
             grid = new cols * rows;
             
     }
